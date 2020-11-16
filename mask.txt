@@ -1,0 +1,9 @@
+kCGEventFlagMaskAlphaShift
+kCGEventFlagMaskShift
+kCGEventFlagMaskControl
+kCGEventFlagMaskAlternate
+kCGEventFlagMaskCommand
+kCGEventFlagMaskHelp
+kCGEventFlagMaskSecondaryFn
+kCGEventFlagMaskNumericPad
+kCGEventFlagMaskNonCoalesced

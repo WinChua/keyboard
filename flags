@@ -1,0 +1,42 @@
+Enumeration
+CGEventFlags
+
+Constants that indicate the modifier key state at the time an event is created, as well as other event-related states.
+
+Language
+SwiftObjective-C
+SDK
+macOS 10.4+
+Framework
+Core Graphics
+On This Page
+Declaration
+Overview
+Topics
+Declaration
+typedef enum CGEventFlags : uint64_t {
+    ...
+} CGEventFlags;
+Overview
+These constants specify masks for the bits in an event flags bit mask. Event flags indicate the modifier key state at the time an event is created, as well as other event-related states. Event flags are used in accessor functions such as CGEventGetFlags, CGEventSetFlags, and CGEventSourceFlagsState.
+
+Topics
+Constants
+kCGEventFlagMaskAlphaShift
+Indicates that the Caps Lock key is down for a keyboard, mouse, or flag-changed event.
+kCGEventFlagMaskShift
+Indicates that the Shift key is down for a keyboard, mouse, or flag-changed event.
+kCGEventFlagMaskControl
+Indicates that the Control key is down for a keyboard, mouse, or flag-changed event.
+kCGEventFlagMaskAlternate
+Indicates that the Alt or Option key is down for a keyboard, mouse, or flag-changed event.
+kCGEventFlagMaskCommand
+Indicates that the Command key is down for a keyboard, mouse, or flag-changed event.
+kCGEventFlagMaskHelp
+Indicates that the Help modifier key is down for a keyboard, mouse, or flag-changed event. This key is not present on most keyboards, and is different than the Help key found in the same row as Home and Page Up.
+kCGEventFlagMaskSecondaryFn
+Indicates that the Fn (Function) key is down for a keyboard, mouse, or flag-changed event. This key is found primarily on laptop keyboards.
+kCGEventFlagMaskNumericPad
+Identifies key events from the numeric keypad area on extended keyboards.
+kCGEventFlagMaskNonCoalesced
+Indicates that mouse and pen movement events are not being coalesced.
